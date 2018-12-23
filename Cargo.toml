@@ -4,5 +4,9 @@ version = "0.1.0"
 authors = ["Sebastian Schmidt <isibboi@gmail.com>"]
 edition = "2018"
 
+[dependencies.amethyst]
+version = "0.10.0"
+features = ["nightly"]
+
 [dependencies]
-amethyst = "0.10"
+rand = "0.6"
